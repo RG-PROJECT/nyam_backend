@@ -1,0 +1,21 @@
+.DS_Store
+
+# Created by https://www.gitignore.io/api/erlang
+# Edit at https://www.gitignore.io/?templates=erlang
+
+.idea/
+
+### Erlang ###
+.eunit
+.erlang.mk
+.rebar
+.concrete/DEV_MODE
+*.o
+*.beam
+*.plt
+erl_crash.dump
+ebin/*.beam
+rel/
+_rel/
+deps/
+# End of https://www.gitignore.io/api/erlang
